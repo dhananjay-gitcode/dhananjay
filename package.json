@@ -1,0 +1,33 @@
+{
+  "name": "dhananjay",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.46.5",
+    "@shopify/cli": "3.46.5",
+    "@shopify/shopify-api": "^7.3.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-router-dom": "^6.13.0",
+    "require": "^2.4.20",
+    "shopify-api-node": "^3.12.5"
+  },
+  "author": "DhananjaY",
+  "private": true,
+  "workspaces": [
+    "web",
+    "web/frontend",
+    "extensions/*"
+  ]
+}

@@ -1,0 +1,17 @@
+# fly.toml app configuration file generated for patient-sun-405 on 2023-09-22T17:15:55+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "patient-sun-405"
+primary_region = "lax"
+
+[build]
+
+[env]
+  PORT = "8081"
+  SHOPIFY_API_KEY = "89a6b593427d4efa21c51b0e46bdefcb"
+  SHOPIFY_APP_URL = "patient-sun-405.fly.dev"
+  SCOPES = "write_products,read_themes,write_themes,read_orders,write_orders"
+  
+  
